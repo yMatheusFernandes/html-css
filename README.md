@@ -1,4 +1,4 @@
 # html-css
- curso de html e css
+ html e css
 
  meu primeiro commit
