@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div#ed{
+    background-color: blue;
+    font-size: 400px;
+}
+
+h1#hg{
+    color: cadetblue;
+    text-align: center;
+}
