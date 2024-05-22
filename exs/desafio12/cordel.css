@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+
+p#creditos{
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    min-height: 2000px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    min-width: 1000px;
+    min-height: 2000px;
+}
+
+footer{
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+.q1 {
+    background-color: white;
+}
+
+.q2{
+    background-image: url(imagens/background001.jpg);
+}
+
+.q3{
+    background-image: url(imagens/background002.jpg);
+}
