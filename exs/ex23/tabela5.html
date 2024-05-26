@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table{
+            width: 400px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black ;
+            padding: 10px;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        h1{
+            padding: 10px;
+        }
+
+        .cnome{
+            background-color: aqua;
+        }
+
+        .cgrupo{
+            background-color: gray;
+        }
+
+        caption{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio tabela</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome"><!--como personalizar uma coluna na vertical-->
+            <col class="cgrupo" span="2"><!--sapn tambem pode ser usado para um grupo de colunas-->
+            <col class="cprofisão">
+        </colgroup>
+        <caption><strong>cadastro</strong></caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">genero</th>
+            <th scope="col">idade</th>
+            <th scope="col">profisão</th>
+        </tr>
+
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>20</td>
+            <td>enginer</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>M</td>
+            <td>20</td>
+            <td>enginer</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>M</td>
+            <td>20</td>
+            <td>enginer</td>
+        </tr>
+        <tr>
+            <td>henrique</td>
+            <td>M</td>
+            <td>20</td>
+            <td>enginer</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
