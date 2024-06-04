@@ -12,10 +12,10 @@
 </head>
 <body>
     <h1>teste de login e senha</h1>
-    <form action="cadastro.php" method="post"><!--quando estiver utilizando dados sensiveis uso o metodo post para ocultar dados da url-->
+    <form action="cadastro.php" method="post" autocomplete="off"><!--quando estiver utilizando dados sensiveis uso o metodo post para ocultar dados da url-->
         <P>
             <label for="iusu"> usuario:</label>
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="20" size="30" placeholder="nome de usuario">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="20" size="30" placeholder="nome de usuario" autocomplete="username">
         </P>
         <p>
             <label for="isen">senha:</label>
