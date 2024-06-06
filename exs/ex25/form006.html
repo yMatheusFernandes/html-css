@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+
+    <form action="cadastro.php" method="post">
+
+        <p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+            <label for="icolor">cor:</label>
+            <input type="color" name="color" id="icolor">
+        </p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+
+        <p>
+            <label for="isast">nivel de satisfaçao com a esperiencia do usuario:</label>
+            <input type="range" name="nivel" id="isast" min="0" max="100000">
+        </p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+
+        <p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+            <label for="ifot">foto do usuario:</label>
+            <input type="file" name="foto" id="ifot">
+        </p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+
+        <p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p><!--pode e gerealmente e utilizado <div> ao inves de <p>
+            -->
+
+    </form>
+    
+</body>
+</html>

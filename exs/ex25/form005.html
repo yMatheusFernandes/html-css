@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend><strong>sexo</strong></legend>
+            <br><input type="radio" name="sexo" id="ismas" value="M"> <label for="ismas">masculino</label></br><!--na opçao de sexo dever ter os mesmo nomes para que ao apertar uma opçao a outra seja desmarcada-->
+            <br><input type="radio" name="sexo" id="isfem" value="F"> <label for="isfem">feminino</label></br>
+        </fieldset>
+
+        <fieldset>
+            <legend>esporte</legend>
+
+            <br>
+                <input type="checkbox" name="basquete" id="ibas">
+                <label for="ibas">basquete</label>
+            </br>
+
+            <br>
+                <input type="checkbox" name="futebol" id="ifut">
+                <label for="ifut">futebol</label>
+            </br>
+
+            <br>
+                <input type="checkbox" name="tênis" id="iten">
+                <label for="iten">tênis</label>
+            </br>
+
+            <br>
+                <input type="checkbox" name="ufc" id="iufc">
+                <label for="iufc">ufc</label>
+            </br>
+        </fieldset>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+
+    </form>
+    
+</body>
+</html>
