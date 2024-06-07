@@ -11,16 +11,43 @@
     <form action="cadastro.php" method="post" autocomplete="on">
 
         <label for="iest">estado:</label>
-        <select name="estado" id="iest"></select>
+        <select name="estado" id="iest">
 
         <option value="" selected>--escolha um uf--</option>
         <optgroup label="região sudeste">
-
+            <option value="MG">minas gerais</option>
+            <option value="RJ">rio de janeiro</option>
+            <option value="SP">são paulo</option>
         </optgroup>
 
+        <optgroup label="região sudeste">
+            <option value="MG">minas gerais</option>
+            <option value="RJ">rio de janeiro</option>
+            <option value="SP">são paulo</option>
+        </optgroup>
 
+    </select>
 
+    <p>
+        <label for="prof">profisao:</label>
+        <input type="text" name="profisao" id="prof" list="profa">
+        <datalist id="profa">
+            <option>adimistrador</option>
+            <option>advogado</option>
+            <option>vendedor</option>
+            <option>pescador</option>
+            <option>encanador</option>
+            <option>engenheiro</option>
+        </datalist>
+    </p>
 
+    <p>
+        <br><label for="img">mensagem:</label></br>
+        <textarea name="mensagem" id="img" cols="30" rows="15"></textarea>
+    </p>
+
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
 
     </form>
     
