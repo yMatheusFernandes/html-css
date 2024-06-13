@@ -24,7 +24,7 @@ menu > ul{
 }
 
 menu > ul > li > a {
-    display: block;
+    display: none;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(55, 55, 55);
@@ -55,4 +55,18 @@ article > p {
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+}
+
+span#men{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#men:hover{
+    background-color: white;
+    color: black;
 }
